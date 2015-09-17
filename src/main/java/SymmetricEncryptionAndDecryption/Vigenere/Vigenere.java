@@ -67,7 +67,7 @@ public class Vigenere {
 	}
 
     public static void main(String[] s){
-        String text = "this is a good world";
+        String text = "i am here";
         Vigenere v = new Vigenere(text,"hahhnishi1",true);
         String text2 = v.en_decrypt();
         System.out.println(text2);
